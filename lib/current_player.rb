@@ -11,7 +11,7 @@ end
 def current_player(board)
   turn_count(board).even? do
     "X"
-  else
+  end
     "O"
   end
 end
