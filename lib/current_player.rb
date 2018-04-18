@@ -8,4 +8,4 @@ end
   counter
 end
 
-turn_count.even? =~ true ? "X" : "O"
+turn_count.even? ? "X" : "O"
