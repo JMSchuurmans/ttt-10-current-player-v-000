@@ -8,4 +8,4 @@ end
   counter
 end
 
-turn_count.even? == true  ? "X" : "O"
+true == turn_count(board).even?  ? "X" : "O"
