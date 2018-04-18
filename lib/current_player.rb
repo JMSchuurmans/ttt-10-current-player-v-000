@@ -1,10 +1,9 @@
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
-def turn_count(board, default = "X")
-  gameplay = 3
+def turn_count(board)
   counter = 0
-  gameplay.each do |turn|
-    puts "It is now #{turn}"
-  counter += 1
+  board.each do |turn|
+    if turn == "X" || turn == "O"
+    counter += 1
   end
+end
+counter
 end
