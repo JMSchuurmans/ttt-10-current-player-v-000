@@ -8,4 +8,4 @@ end
   counter
 end
 
-def current_player(board) = turn_count(board).even? == true ? "X" : "O"
+current_player(board) =~ turn_count(board).even? == true ? "X" : "O"
