@@ -5,6 +5,6 @@ def turn_count(board)
   counter = 0
   gameplay.each do |turn|
     puts "It is now #{turn}"
-    counter += 1
+  counter += 1
   end
 end
